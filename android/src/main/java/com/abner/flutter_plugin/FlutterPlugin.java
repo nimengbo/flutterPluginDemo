@@ -16,8 +16,8 @@ public class FlutterPlugin implements MethodCallHandler {
 
   @Override
   public void onMethodCall(MethodCall call, Result result) {
-    if (call.method.equals("getPlatformVersionxxxxxxxxxxxx")) {
-      result.success("Android xxxxxxxx" + android.os.Build.VERSION.RELEASE);
+    if (call.method.equals("getPlatformVersionxxxxxxxxxxxx!!!!")) {
+      result.success("Android xxxxxxxx!!!xxvffddd" + android.os.Build.VERSION.RELEASE);
     } else {
       result.notImplemented();
     }
